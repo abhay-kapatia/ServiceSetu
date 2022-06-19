@@ -1,0 +1,277 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@0,400;1,900&display=swap');
+
+/*tags*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*class*/
+.logo {
+    height: 70px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: rgb(49, 54, 92);
+    padding-left: 20px;
+}
+
+.Setu {
+    color: rgb(20, 144, 143);
+}
+
+.nav-link {
+    font-weight: 100;
+    margin: 0px 20px 0px 20px;
+}
+
+.col {
+    padding: 0px;
+}
+
+.home-top {
+    background-image: radial-gradient(circle farthest-corner at 5.6% 54.5%, rgba(47, 71, 79, 1) 0%, rgba(159, 188, 198, 1) 83.6%);
+}
+
+.home-title {
+    padding: 4rem 0px 3rem;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.home-search {
+    padding: 0px 0px 5rem;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.search-btn {
+    background-color: rgb(255, 76, 59);
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 4rem;
+    border: none;
+}
+
+.SeperatorClass {
+    height: 1rem;
+}
+
+/*middle section */
+
+.C1 {
+    padding: 5rem 0px 0rem;
+}
+
+.C2,
+.C3 {
+    padding: 1rem 0px 0rem;
+}
+
+.C3 {
+    padding-bottom: 3rem;
+}
+
+
+.v1,
+.v2,
+.v3 {
+    background-color: rgb(211, 225, 233);
+}
+
+
+.vendor-image {
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+
+.CCText {
+    display: inline;
+}
+
+.CCBtn {
+    border: none;
+    float: right;
+}
+
+.card:hover {
+    transform: scale(1.2px);
+}
+
+.carousel-item {
+    padding: 3% 10%;
+}
+
+.vendor-title{
+    display: inline;
+}
+
+/*, .carousel-indicators */
+.CCNext {
+    padding: 2rem 0px 0px;
+    position: relative;
+    filter: invert(100%);
+    width: 50px;
+    height: 20px;
+    float: right;
+}
+.CCPrev {
+    padding: 2rem 0px 0px;
+    position: relative;
+    filter: invert(100%);
+    width: 50px;
+    height: 20px;
+    float: right;
+}
+
+.Services {
+    margin: 5rem 0px;
+    text-align: center;
+}
+
+.service-box {
+    margin: 20px auto 0;
+    padding: 20px 13px;
+    color: #666;
+    text-align: center;
+    font-size: 13px;
+}
+
+.service-icon {
+    width: 90px;
+    margin: auto;
+}
+
+.service-icon:hover {
+    background-color: #DDDDDD;
+    transform: scale(1.5);
+    margin-bottom: 22px;
+}
+
+.dropbtn {
+    border: none;
+    background-color: #fff;
+}
+
+.dropdown {
+    width: auto;
+    background-color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*ending */
+
+.colored-section {
+    background-color: #334b53;
+    color: #fff;
+  }
+  
+  .white-section {
+    background-color: #334b53;
+  }
+  
+  /* Buttons */
+  .download-button {
+    margin: 2% 5% 2% 5%;
+  }
+  
+  #testimonials {
+    background-image: linear-gradient( 79.8deg,  rgba(101,132,154,1) 3.2%, rgba(160,197,201,1) 89.1% );
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+  
+  .carousel {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* modal */
+  .modal-all {
+    padding: 50px;
+  }
+  
+  .modal-title {
+    color: black;
+  }
+  
+  .feedback-form {
+    color: black;
+  }
+  
+  /* Footer Section */
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  .Testimony {
+    text-align: center;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .download-section {
+    text-align: center;
+    padding: 2%;
+  }
+  
+  .modal-trigger {
+    padding-bottom: 50px;
+  }
+  
+  .big-heading {
+    padding: 10px;
+  }  
+
+  .qoute{
+    padding: 6rem 0px;
+  }
