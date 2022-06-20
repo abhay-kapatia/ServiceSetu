@@ -22,27 +22,27 @@
 
 <body>
   <!--Home-top-->
-  <nav class="navbar navbar-expand-lg navbar-light ">
-    <div class="container">
-      <img class="logo" src="assets/logo.png" alt="">
-      <a class="navbar-brand" href="#">Service<span class="Setu">Setu</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">List Your Buisness</a>
-          <a class="nav-link" href="#">Sign Up</a>
-          <a class="nav-link" href="#">Sign In</a>
+  
+  <div class="home-top mydiv">
+    <nav class="navbar navbar-expand-lg fixed-top black">
+      <div class="container-fluid">
+        <img class="logo" src="assets/logo.png" alt="">
+        <a class="navbar-brand" href="#">Service<span class="Setu">Setu</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link " href="#">List Your Buisness</a>
+            <a class="nav-link " href="#">Sign Up</a>
+            <a class="nav-link " href="#">Sign In</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-
-  <div class="home-top">
-    <div class="container">
+    </nav>
+    <div class=" container">
       <div class="row">
         <div class="col col-md-6 col-sm-12 col-xs-12">
           <h1 class="home-title">"Let us connect you with your buisness."<br><br>What do you Say? ;)</h1>
@@ -563,9 +563,11 @@
     function myFunction(x) {
       if (x.matches) { // If media query matches
         document.querySelector(".SeperatorClass").setAttribute("style", "display:block");
+        document.querySelector(".model3d").setAttribute("src", "https://my.spline.design/molang3dcopy-f6cf877134da6d063a4c3b38f38a19b5/");
         document.querySelector(".model3d").setAttribute("width", "440px");
       } else {
         document.querySelector(".SeperatorClass").setAttribute("style", "display:none");
+        document.querySelector(".model3d").setAttribute("src", "https://my.spline.design/molang3dcopy-c11957962bd2d024f3c894aeda1d0394/");
         document.querySelector(".model3d").setAttribute("width", "100%");
       }
     }
@@ -573,6 +575,26 @@
     var x = window.matchMedia("(max-width: 575px)")
     myFunction(x) // Call listener function at run time
     x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+
+
+    
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 600) {
+	    $(".black").css("background" , "white");
+      $(".nav-link").css("color" , "black");
+	  }
+
+	  else{
+		  $(".black").css("background" , "transparent");  
+      $(".nav-link").css("color" , "white");	
+	  }
+  })
+})
   </script>
 
 </body>

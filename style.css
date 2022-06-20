@@ -13,8 +13,8 @@ body {
     height: 70px;
 }
 
-.navbar {
-    background-color: #fff;
+.blue {
+  
 }
 
 .navbar-brand {
@@ -42,15 +42,15 @@ body {
 }
 
 .home-title {
-    padding: 4rem 0px 3rem;
+    padding: 8rem 0px 8rem;
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .home-search {
-    padding: 0px 0px 5rem;
+    padding: 0px 0px 8rem;
 }
 
 .form-control {
@@ -68,6 +68,25 @@ body {
 .SeperatorClass {
     height: 1rem;
 }
+
+.model-3d{
+    margin-top: 5rem;
+}
+
+.mydiv {
+    width:100%;
+    height:100%;
+    color:black;
+    font-weight:bold;
+    animation: myanimation 20s infinite;
+  }
+  
+  @keyframes myanimation {
+    0% {background-image: radial-gradient(circle farthest-corner at 5.6% 54.5%, rgba(47, 71, 79, 1) 0%, rgba(159, 188, 198, 1) 83.6%);}
+    33%{background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );}
+    66%{background-image: linear-gradient( 109.6deg,  rgba(33,103,43,1) 11.3%, rgba(117,162,61,1) 91.1% );}
+    100% {background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );}
+  }
 
 /*middle section */
 
