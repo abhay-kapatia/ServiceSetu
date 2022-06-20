@@ -16,33 +16,45 @@
     rel="stylesheet">
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/17eac6a91a.js" crossorigin="anonymous"></script>
+  <!-- testimonial -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/pen?template=rNBroNG">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7549a40147ccd0ba0a6b5373d87e770e49bb4689f1c2dc30cccc7463f207f997.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+<!-- tesitmonial -->
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
   <title>ServiceSetu</title>
 </head>
 
 <body>
   <!--Home-top-->
-  
-  <div class="home-top mydiv">
-    <nav class="navbar navbar-expand-lg fixed-top black">
-      <div class="container-fluid">
-        <img class="logo" src="assets/logo.png" alt="">
-        <a class="navbar-brand" href="#">Service<span class="Setu">Setu</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link " href="#">List Your Buisness</a>
-            <a class="nav-link " href="#">Sign Up</a>
-            <a class="nav-link " href="#">Sign In</a>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <img class="logo" src="assets/logo.png" alt="">
+      <a class="navbar-brand" href="#">Service<span class="Setu">Setu</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">List Your Buisness</a>
+          <a class="nav-link" href="#">Sign Up</a>
+          <a class="nav-link" href="#">Sign In</a>
         </div>
       </div>
-    </nav>
-    <div class=" container">
+    </div>
+  </nav>
+
+  <div class="home-top">
+    <div class="container">
       <div class="row">
         <div class="col col-md-6 col-sm-12 col-xs-12">
           <h1 class="home-title">"Let us connect you with your buisness."<br><br>What do you Say? ;)</h1>
@@ -563,11 +575,9 @@
     function myFunction(x) {
       if (x.matches) { // If media query matches
         document.querySelector(".SeperatorClass").setAttribute("style", "display:block");
-        document.querySelector(".model3d").setAttribute("src", "https://my.spline.design/molang3dcopy-f6cf877134da6d063a4c3b38f38a19b5/");
         document.querySelector(".model3d").setAttribute("width", "440px");
       } else {
         document.querySelector(".SeperatorClass").setAttribute("style", "display:none");
-        document.querySelector(".model3d").setAttribute("src", "https://my.spline.design/molang3dcopy-c11957962bd2d024f3c894aeda1d0394/");
         document.querySelector(".model3d").setAttribute("width", "100%");
       }
     }
@@ -575,26 +585,6 @@
     var x = window.matchMedia("(max-width: 575px)")
     myFunction(x) // Call listener function at run time
     x.addListener(myFunction) // Attach listener function on state changes
-
-
-
-
-
-    
-$(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 600) {
-	    $(".black").css("background" , "white");
-      $(".nav-link").css("color" , "black");
-	  }
-
-	  else{
-		  $(".black").css("background" , "transparent");  
-      $(".nav-link").css("color" , "white");	
-	  }
-  })
-})
   </script>
 
 </body>
